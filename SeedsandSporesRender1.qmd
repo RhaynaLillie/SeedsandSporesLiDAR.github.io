@@ -1,0 +1,21 @@
+---
+title: "Seeds and Spores LiDAR Analysis"
+format: revealjs
+editor: visual
+---
+
+## Quarto
+
+![](images/paste-0D934096.png)
+
+## Bullets
+
+![](images/paste-0DB6E397.png)
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```

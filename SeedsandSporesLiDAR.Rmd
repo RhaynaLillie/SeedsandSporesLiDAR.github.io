@@ -1,0 +1,65 @@
+---
+title: "Seeds and Spores Family Farm<br/>LiDAR Analysis"
+subtitle: ""
+author: "Project Summary by Rhayna Lillie"
+institute: "Completed directed study under Dr. Adam Naito of Northern Michigan University"
+date: "12/20/2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: inverse, left
+
+# Background
+Seeds and Spores Family Farm is located in the Upper Peninsula of Michigan within a few miles of the Lake Superior shoreline. The farm's owners, Jeff and Leanne Hatfield, are committed to producing food that is high in nutritional value and low in it's impact on the land. They have been stewards of this property for over 20 years and in that time have educated hundres of people through their presence at local markets, seasonal employment opportunities, and farm to table dinner events held on site.
+
+![Greenhouse](\Images\Greenhouses.jpg)
+---
+class: inverse
+# Scope of the Project
+This project was planned as a directed study to fulfill the last two credits needed to finish my coursework certificate in GIS. Northern Michigan University had recently invested in state of the art drone equipment including the DJI Matrice 300 drone and Zenmuse L1 LiDAR sensor. Over the course of 6 months I was taught to operate this equipment autonomously to capture the topography of the landscape at the very high spatial resolution of 2 centimeters. Given that the widely available satellite data for this region has a spatial resolution of 30 meters this technology allowed for a large improvement in the accuracy of this study. Knowing that I was an inexperienced student at the time, my goals for this project were the following:
+* Learn how to operate drone technology and utilize it in a field setting.
+* Create usable data that improves upon what is currently available.
+* Learn how this data could be applied from a farmer's perspective.
+* Eventually, produce maps that could contribute to farm planning considerations and goals.
+
+---
+class: inverse, left
+# Why LiDAR?
+![TWILiDARvsUSGS](\images\LiDARvsUSGS.jpg)
+
+---
+class: inverse, center
+![TWI](\Images\TWI.jpg)
+
+---
+class: inverse, left
+#Topographic Wetness Index Summary
+This Topographic Wetness Index or TWI predicts the direction of water flow over a landscape. In this case, I used ArcGIS Pro to calculate the slope, flow direction, flow accumulation, and tangent of slope which allow the program to calculate the TWI by taking the natural log of the flow accumulation divided by the tangent of the slope within each cell of the data. The cell size of this raster data was resampled to 0.5 meter so this calculation is completed for each cell within the landscape rendering the image on the previous slide.
+
+---
+class: inverse, center
+![TWI with Contours](\images\TWIContour.jpg)
+---
+class: inverse, center
+![Slope](\images\Slope.jpg)
+---
+class: inverse, center
+![Slope with contours](\images\SlopeContour.jpg)
+---
+class: inverse, center
+
+
+
+
+
+
+
+These are all of the outputs that we were able to put together. Thank you for viewing my project!
+
+---
